@@ -104,31 +104,6 @@ public class KorisnikCRUD {
      * @throws UsernameNotValidException
      * @throws PasswordNotValidException
      */
-//    public static Korisnik pronadjiKorisnika(String korisnickoIme, String lozinka) throws SQLException, UsernameNotValidException, PasswordNotValidException{
-//        Korisnik korisnik = new Korisnik();
-//        PreparedStatement statement = con.prepareStatement("SELECT * FROM korisnici WHERE korisnickoIme = ? AND lozinka = ?");
-//        statement.setString(1, korisnickoIme);
-//        statement.setString(2, lozinka);
-//        
-//        ResultSet set = statement.executeQuery();
-//        
-//        while(set.next()){
-//            try {
-//                korisnik.setKorisnikId(set.getInt("korisnikId"));
-//                korisnik.setIme(set.getString("ime"));
-//                korisnik.setPrezime(set.getString("prezime"));
-//                korisnik.setBrojTelefona(set.getString("brojTelefona"));
-//                korisnik.setMejl(set.getString("mejl"));
-//                korisnik.setKorisnickoIme(set.getString("korisnickoIme"));
-//                korisnik.setLozinka(set.getString("lozinka"));
-//            } catch (InputNotValidException ex) {
-//                Logger.getLogger(KorisnikCRUD.class.getName()).log(Level.SEVERE, null, ex);
-//            }
-//            
-//        }
-//        return korisnik;
-//        
-//    }
     public static Korisnik pronadjiKorisnika(String korisnickoIme, String lozinka) throws SQLException, UsernameNotValidException, PasswordNotValidException {
         Korisnik korisnik = null;
         PreparedStatement statement = con.prepareStatement("SELECT * FROM korisnici WHERE korisnickoIme = ? AND lozinka = ?");
@@ -156,33 +131,4 @@ public class KorisnikCRUD {
         return korisnik;
     }
 
-    /**
-     *
-     * @param korisnickoIme
-     * @return
-     * @throws SQLException
-     */
-//    public static List<Korisnik> vratiKorisnika(String korisnickoIme) throws SQLException {
-//        List<Korisnik> rezultati = new ArrayList<>();
-//
-//        try (PreparedStatement statement = con.prepareStatement("SELECT * FROM korisnici ORDER BY id")) {
-//            statement.setString(1, korisnickoIme);
-//
-//            ResultSet resultSet = statement.executeQuery();
-//
-//            while (resultSet.next()) {
-//                String ime = resultSet.getString("ime");
-//                String prezime = resultSet.getString("prezime");
-//                String brojTelefona = resultSet.getString("brTelefona");
-//                String mejl = resultSet.getString("mejl");
-//                String korisnickoImeDB = resultSet.getString("korisnickoIme");
-//                String lozinka = resultSet.getString("lozinka");
-//
-//                Korisnik korisnik = new Korisnik(ime, prezime, brojTelefona, mejl, korisnickoImeDB, lozinka);
-//                rezultati.add(korisnik);
-//            }
-//        }
-//
-//        return rezultati;
-//    }
 }
