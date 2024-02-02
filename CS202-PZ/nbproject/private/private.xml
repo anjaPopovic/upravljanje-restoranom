@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/entities/Pice.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/database/AdminCRUD.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/database/DBUtil.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/scenes/KorisnikScene.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/database/KorisnikCRUD.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/scenes/Rezervisi.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/exceptions/ReservationNotValidException.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/util/LoginAdmin.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/scenes/MeniScene.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/entities/Rezervacija.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/entities/Jelo.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/scenes/KorisnikPanel.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/scenes/RegistracijaKorisnik.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/scenes/PocetnaScene.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/exceptions/UsernameNotValidException.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/exceptions/InputNotValidException.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/exceptions/TableNumNotValidException.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/entities/Admin.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/scenes/Metode.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/scenes/LoginKorisnik.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/database/RezervacijaCRUD.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/scenes/PregledKorisnika.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/entities/Sto.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/database/StoloviCRUD.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/scenes/LoginScene.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/util/AdminRezervacije.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/entities/Korisnik.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/scenes/AdminScene.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/util/LoginKorisnik.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/enums/TipJela.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/enums/TipPica.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/util/Rezervisanje.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/CS202-PZ/src/exceptions/PasswordNotValidException.java</file>
+        </group>
+    </open-files>
+</project-private>
