@@ -63,7 +63,7 @@ public class DBUtil {
 
         } catch (SQLException ex) {
             ex.printStackTrace();
-            //java.util.logging.Logger.getLogger(DBUtil.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+
         }
     }
 
