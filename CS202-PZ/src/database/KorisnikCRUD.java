@@ -123,8 +123,6 @@ public class KorisnikCRUD {
                 korisnik.setKorisnickoIme(set.getString("korisnickoIme"));
                 korisnik.setLozinka(set.getString("lozinka"));
             } catch (InputNotValidException ex) {
-                // Log the exception or handle it accordingly
-                // For now, we'll print the stack trace
                 ex.printStackTrace();
             }
         }
