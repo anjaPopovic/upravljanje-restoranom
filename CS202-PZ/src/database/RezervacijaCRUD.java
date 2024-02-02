@@ -89,59 +89,6 @@ public class RezervacijaCRUD {
         return poslednjiId;
     }
 
-//    public static void obrisiRezervaciju(int rezervacijaId) throws SQLException {
-//        try (PreparedStatement statement = DBUtil.con.prepareStatement("DELETE FROM rezervacije WHERE rezervacijaId = ?")) {
-//            statement.setInt(1, rezervacijaId);
-//            statement.executeUpdate();
-//        }
-//    }
-//    public static void obrisiRezervaciju(int rezervacijaId) throws SQLException {
-//        Rezervacija rezervacija = pronadjiRezervaciju(rezervacijaId);
-//
-//        if (rezervacija != null) {
-//            Sto sto = rezervacija.getSto();
-//
-//            // Postavljanje statusa stola na nerezervisan
-//            if (sto != null) {
-//                sto.setRezervisan(false);
-//                azurirajSto(sto); // Ovde pozivamo azurirajSto da bismo ažurirali status stola
-//            }
-//
-//            // Brisanje rezervacije iz baze podataka
-//            try (PreparedStatement statement = DBUtil.con.prepareStatement("DELETE FROM rezervacije WHERE rezervacijaId = ?")) {
-//                statement.setInt(1, rezervacijaId);
-//                statement.executeUpdate();
-//            } catch (SQLException ex) {
-//                ex.printStackTrace(); // Dodajte ovu liniju kako biste ispisali grešku u konzoli
-//            }
-//        }
-//    }
-//    public static void obrisiRezervaciju(int rezervacijaId) throws SQLException {
-//        System.out.println("Ulaz u obrisiRezervaciju.");
-//
-//        Rezervacija rezervacija = pronadjiRezervaciju(rezervacijaId);
-//
-//        if (rezervacija != null) {
-//            Sto sto = rezervacija.getSto();
-//            sto.setRezervisan(false);
-//
-////            // Postavljanje statusa stola na nerezervisan
-////            if (sto != null) {
-////                sto.setRezervisan(false);
-////                azurirajSto(sto); // Ovde pozivamo azurirajSto da bismo ažurirali status stola
-////            }
-//
-//            // Brisanje rezervacije iz baze podataka
-//            try (PreparedStatement statement = DBUtil.con.prepareStatement("DELETE FROM rezervacije WHERE rezervacijaId = ?")) {
-//                statement.setInt(1, rezervacijaId);
-//                statement.executeUpdate();
-//            } catch (SQLException ex) {
-//                ex.printStackTrace(); // Dodajte ovu liniju kako biste ispisali grešku u konzoli
-//            }
-//        }
-//
-//        System.out.println("Izlaz iz obrisiRezervaciju.");
-//    }
     public static void obrisiRezervaciju(int rezervacijaId) throws SQLException {
         System.out.println("Ulaz u obrisiRezervaciju.");
 
@@ -150,12 +97,11 @@ public class RezervacijaCRUD {
         sto.setRezervisan(false);
 
         if (rezervacija != null) {
-            // Brisanje rezervacije iz baze podataka
             try (PreparedStatement statement = DBUtil.con.prepareStatement("DELETE FROM rezervacije WHERE rezervacijaId = ?")) {
                 statement.setInt(1, rezervacijaId);
                 statement.executeUpdate();
             } catch (SQLException ex) {
-                ex.printStackTrace(); // Dodajte ovu liniju kako biste ispisali grešku u konzoli
+                ex.printStackTrace(); 
             }
         }
 
@@ -180,9 +126,7 @@ public class RezervacijaCRUD {
     private static Rezervacija mapirajRezervaciju(ResultSet resultSet) throws SQLException {
         Rezervacija rezervacija = new Rezervacija();
 
-        // Postavljamo podatke rezervacije iz ResultSet-a u objekat Rezervacija
         rezervacija.setRezervacijaId(resultSet.getInt("rezervacijaId"));
-        // Postavite i druge atribute rezervacije prema strukturi vaše baze podataka
 
         return rezervacija;
     }
