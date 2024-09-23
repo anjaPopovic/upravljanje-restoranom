@@ -1,18 +1,20 @@
-# upravljanje-restoranom
-Aplikacija za rezervaciju stolova u restoranu od strane korisnika, i upravljanje restoranom od strane admina.
+# Restaurant Management
+An application for table reservations by users and restaurant management by the admin.
 
-1.	Predlog teme
+## 1. Project Proposal
 
-Sistem za upravljanje restoranom, gde korisnik ima mogućnost registracije i logovanja na aplikaciju, pretrage dostupnih stolova prema broju mesta i vršenja rezervacije odabranog stola. Admin, sa druge strane, ima mogućnost pregledavanja menija i pregledavanja korisnika. Pregledavanje korisnika uključuje ažuriranje i brisanje korisnika, dok pregledavanje menija uključuje pregled jela, pregled pića i pregled dezerta.
+A restaurant management system where users can register and log into the application, search for available tables by the number of seats, and reserve a selected table. On the other hand, the admin can view the menu and manage users. User management includes updating and deleting users, while menu management includes viewing dishes, drinks, and desserts.
 
-2.	Opis funkcionalnosti
+## 2. Description of Features
 
-Aplikacija pruža sledeće funkcionalnosti:
-1. Korisnik
--Registracija korisnika – korisnik može da se registruje unosom svog imena, prezimena, broja telefona, mejl adrese, korisničkog imena i lozinke.
--Logovanje korisnika – korisnik može da se uloguje unosom svog korisničkog imena i lozinke.
--Pretraga stolova u restoranu – korisnik može da pretražuje dostupne stolove prema unetom broju mesta
--Rezervacija stolova – korisnik može da rezerviše izabrani sto na osnovu unetog datuma, vremena i broja mesta
-2. Admin
--Pregled menija – admin može da pristupa menijima za jelo i piće, pri čemu može da dodaje, menja i briše izabrane stavke. Admin takođe ima pregled dezerta.
--Pregled korisnika – admin može da ažurira odabranog korisnika i da ga izbriše iz baze podataka
+The application offers the following functionalities:
+
+1. **User**
+   - **User Registration** – Users can register by entering their first name, last name, phone number, email address, username, and password.
+   - **User Login** – Users can log in by entering their username and password.
+   - **Table Search** – Users can search for available tables by entering the desired number of seats.
+   - **Table Reservation** – Users can reserve a selected table by entering the date, time, and number of seats.
+
+2. **Admin**
+   - **Menu Management** – The admin can access menus for food and drinks, with the ability to add, edit, and delete selected items. The admin also has access to dessert options.
+   - **User Management** – The admin can update selected users and delete them from the database.
